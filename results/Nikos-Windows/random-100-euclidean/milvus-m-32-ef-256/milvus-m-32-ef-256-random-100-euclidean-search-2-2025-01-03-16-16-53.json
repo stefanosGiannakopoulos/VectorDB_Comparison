@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "random-100-euclidean",
+    "experiment": "milvus-m-32-ef-256",
+    "engine": "milvus",
+    "parallel": 1,
+    "config": {
+      "ef": 512
+    }
+  },
+  "results": {
+    "total_time": 0.021128500000031636,
+    "mean_time": 0.0019354700000576487,
+    "mean_precisions": 1.0,
+    "std_time": 0.0003321035954612848,
+    "min_time": 0.001609299999927316,
+    "max_time": 0.002763800000138872,
+    "rps": 473.2943654298709,
+    "p95_time": 0.0024760250001236266,
+    "p99_time": 0.002706245000135823
+  }
+}

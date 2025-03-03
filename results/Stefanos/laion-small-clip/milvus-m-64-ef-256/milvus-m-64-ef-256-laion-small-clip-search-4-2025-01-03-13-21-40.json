@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "laion-small-clip",
+    "experiment": "milvus-m-64-ef-256",
+    "engine": "milvus",
+    "parallel": 100,
+    "config": {
+      "ef": 256
+    }
+  },
+  "results": {
+    "total_time": 113.32434737500444,
+    "mean_time": 0.3016714642203326,
+    "mean_precisions": 0.7867799999999999,
+    "std_time": 0.2035808246426101,
+    "min_time": 0.007286458989256062,
+    "max_time": 1.9550821250013541,
+    "rps": 44.121145330353194,
+    "p95_time": 0.6525039420012038,
+    "p99_time": 1.0629831714251499
+  }
+}

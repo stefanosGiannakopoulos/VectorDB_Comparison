@@ -1,0 +1,17 @@
+{
+  "params": {
+    "experiment": "milvus-m-64-ef-256",
+    "engine": "milvus",
+    "dataset": "laion-small-clip",
+    "parallel": 16,
+    "index_params": {
+      "efConstruction": 256,
+      "M": 64
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 10.752699167001992,
+    "total_time": 47.4073006670078
+  }
+}

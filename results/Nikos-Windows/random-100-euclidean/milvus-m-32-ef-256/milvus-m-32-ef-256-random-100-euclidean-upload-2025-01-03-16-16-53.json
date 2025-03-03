@@ -1,0 +1,17 @@
+{
+  "params": {
+    "experiment": "milvus-m-32-ef-256",
+    "engine": "milvus",
+    "dataset": "random-100-euclidean",
+    "parallel": 16,
+    "index_params": {
+      "efConstruction": 256,
+      "M": 32
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 4.427390600000081,
+    "total_time": 11.880933600000162
+  }
+}

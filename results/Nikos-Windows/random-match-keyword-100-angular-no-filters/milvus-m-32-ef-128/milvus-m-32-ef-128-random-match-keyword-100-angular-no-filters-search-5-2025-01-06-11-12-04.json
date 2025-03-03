@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "random-match-keyword-100-angular-no-filters",
+    "experiment": "milvus-m-32-ef-128",
+    "engine": "milvus",
+    "parallel": 100,
+    "config": {
+      "ef": 512
+    }
+  },
+  "results": {
+    "total_time": 53.135878899999625,
+    "mean_time": 0.042026905889999855,
+    "mean_precisions": 0.9466700000000001,
+    "std_time": 0.011870450759157753,
+    "min_time": 0.01794179999978951,
+    "max_time": 0.11575919999995676,
+    "rps": 188.19675531893895,
+    "p95_time": 0.06391223000014176,
+    "p99_time": 0.08116411200052431
+  }
+}

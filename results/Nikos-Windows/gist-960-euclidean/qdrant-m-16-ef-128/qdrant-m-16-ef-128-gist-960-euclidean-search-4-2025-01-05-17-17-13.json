@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "gist-960-euclidean",
+    "experiment": "qdrant-m-16-ef-128",
+    "engine": "qdrant",
+    "parallel": 100,
+    "config": {
+      "hnsw_ef": 64
+    }
+  },
+  "results": {
+    "total_time": 1.8789497000002484,
+    "mean_time": 0.01395463989999189,
+    "mean_precisions": 0.8533,
+    "std_time": 0.0036843010801589863,
+    "min_time": 0.007551900000180467,
+    "max_time": 0.057792000000063126,
+    "rps": 532.2122247337796,
+    "p95_time": 0.01665088500035381,
+    "p99_time": 0.02178439699980117
+  }
+}

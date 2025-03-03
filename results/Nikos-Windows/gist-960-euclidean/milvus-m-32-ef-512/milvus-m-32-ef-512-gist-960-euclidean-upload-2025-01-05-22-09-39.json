@@ -1,0 +1,17 @@
+{
+  "params": {
+    "experiment": "milvus-m-32-ef-512",
+    "engine": "milvus",
+    "dataset": "gist-960-euclidean",
+    "parallel": 16,
+    "index_params": {
+      "efConstruction": 512,
+      "M": 32
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 310.6259551000003,
+    "total_time": 3357.715449800001
+  }
+}

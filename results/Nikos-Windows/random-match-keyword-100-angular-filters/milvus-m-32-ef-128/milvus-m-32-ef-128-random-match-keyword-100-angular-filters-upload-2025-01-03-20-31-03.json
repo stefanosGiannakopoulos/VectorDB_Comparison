@@ -1,0 +1,17 @@
+{
+  "params": {
+    "experiment": "milvus-m-32-ef-128",
+    "engine": "milvus",
+    "dataset": "random-match-keyword-100-angular-filters",
+    "parallel": 16,
+    "index_params": {
+      "efConstruction": 128,
+      "M": 32
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 131.0186521999999,
+    "total_time": 698.6839794999999
+  }
+}

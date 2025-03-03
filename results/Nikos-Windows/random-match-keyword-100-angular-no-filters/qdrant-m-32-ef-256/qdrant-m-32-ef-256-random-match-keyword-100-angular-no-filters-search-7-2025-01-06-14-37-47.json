@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "random-match-keyword-100-angular-no-filters",
+    "experiment": "qdrant-m-32-ef-256",
+    "engine": "qdrant",
+    "parallel": 100,
+    "config": {
+      "hnsw_ef": 512
+    }
+  },
+  "results": {
+    "total_time": 60.004322100001446,
+    "mean_time": 0.04753773906999522,
+    "mean_precisions": 0.9888299999999999,
+    "std_time": 0.0025015984265246236,
+    "min_time": 0.029044200000498677,
+    "max_time": 0.09102409999832162,
+    "rps": 166.65466169810722,
+    "p95_time": 0.051398909999261375,
+    "p99_time": 0.05876615600114747
+  }
+}

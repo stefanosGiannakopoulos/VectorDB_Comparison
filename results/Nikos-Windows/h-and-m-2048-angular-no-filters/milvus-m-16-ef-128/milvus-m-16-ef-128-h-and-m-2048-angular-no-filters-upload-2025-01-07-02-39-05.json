@@ -1,0 +1,17 @@
+{
+  "params": {
+    "experiment": "milvus-m-16-ef-128",
+    "engine": "milvus",
+    "dataset": "h-and-m-2048-angular-no-filters",
+    "parallel": 16,
+    "index_params": {
+      "efConstruction": 128,
+      "M": 16
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 27.9676541000008,
+    "total_time": 77.015230099998
+  }
+}

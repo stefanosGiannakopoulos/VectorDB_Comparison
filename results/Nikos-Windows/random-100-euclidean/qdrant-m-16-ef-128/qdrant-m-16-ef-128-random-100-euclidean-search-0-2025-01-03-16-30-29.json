@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "random-100-euclidean",
+    "experiment": "qdrant-m-16-ef-128",
+    "engine": "qdrant",
+    "parallel": 1,
+    "config": {
+      "hnsw_ef": 64
+    }
+  },
+  "results": {
+    "total_time": 0.018323300000020026,
+    "mean_time": 0.0016759600000114006,
+    "mean_precisions": 1.0,
+    "std_time": 0.001517322299440411,
+    "min_time": 0.0009271000001263019,
+    "max_time": 0.006123699999989185,
+    "rps": 545.7532213077923,
+    "p95_time": 0.00429656499999282,
+    "p99_time": 0.005758272999989914
+  }
+}

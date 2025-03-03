@@ -1,0 +1,17 @@
+{
+  "params": {
+    "experiment": "milvus-m-16-ef-128",
+    "engine": "milvus",
+    "dataset": "dbpedia-openai-1M-1536-angular",
+    "parallel": 16,
+    "index_params": {
+      "efConstruction": 128,
+      "M": 16
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 335.02947333297925,
+    "total_time": 1161.8713833749935
+  }
+}

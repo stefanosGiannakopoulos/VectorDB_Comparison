@@ -1,0 +1,20 @@
+{
+  "params": {
+    "experiment": "qdrant-m-64-ef-512",
+    "engine": "qdrant",
+    "dataset": "laion-small-clip",
+    "parallel": 16,
+    "optimizers_config": {
+      "memmap_threshold": 10000000
+    },
+    "hnsw_config": {
+      "m": 64,
+      "ef_construct": 512
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 10.651167916003033,
+    "total_time": 45.72422899999947
+  }
+}

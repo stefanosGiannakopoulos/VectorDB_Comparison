@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "gist-960-euclidean",
+    "experiment": "milvus-m-64-ef-512",
+    "engine": "milvus",
+    "parallel": 100,
+    "config": {
+      "ef": 128
+    }
+  },
+  "results": {
+    "total_time": 6.380815500000608,
+    "mean_time": 0.04928939299999365,
+    "mean_precisions": 0.98021,
+    "std_time": 0.014702550498615963,
+    "min_time": 0.017052199999852746,
+    "max_time": 0.12409430000025168,
+    "rps": 156.71977978361932,
+    "p95_time": 0.07541697000001477,
+    "p99_time": 0.09160721300025215
+  }
+}

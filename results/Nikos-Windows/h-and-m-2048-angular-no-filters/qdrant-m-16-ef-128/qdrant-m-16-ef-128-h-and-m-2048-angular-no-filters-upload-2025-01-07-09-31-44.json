@@ -1,0 +1,20 @@
+{
+  "params": {
+    "experiment": "qdrant-m-16-ef-128",
+    "engine": "qdrant",
+    "dataset": "h-and-m-2048-angular-no-filters",
+    "parallel": 16,
+    "optimizers_config": {
+      "memmap_threshold": 10000000
+    },
+    "hnsw_config": {
+      "m": 16,
+      "ef_construct": 128
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 23.284004899993306,
+    "total_time": 58.38691299999482
+  }
+}

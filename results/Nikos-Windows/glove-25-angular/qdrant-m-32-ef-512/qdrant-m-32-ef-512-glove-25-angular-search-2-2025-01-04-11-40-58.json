@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "glove-25-angular",
+    "experiment": "qdrant-m-32-ef-512",
+    "engine": "qdrant",
+    "parallel": 1,
+    "config": {
+      "hnsw_ef": 256
+    }
+  },
+  "results": {
+    "total_time": 90.04353519999859,
+    "mean_time": 0.008861894069994014,
+    "mean_precisions": 0.9999950000000001,
+    "std_time": 0.001062712782317245,
+    "min_time": 0.0069051000027684495,
+    "max_time": 0.022404900002584327,
+    "rps": 111.0573899368642,
+    "p95_time": 0.010386970000763537,
+    "p99_time": 0.012654703003645408
+  }
+}

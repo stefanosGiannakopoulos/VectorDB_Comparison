@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "glove-25-angular",
+    "experiment": "milvus-m-32-ef-512",
+    "engine": "milvus",
+    "parallel": 100,
+    "config": {
+      "ef": 512
+    }
+  },
+  "results": {
+    "total_time": 14.506570499994268,
+    "mean_time": 0.011097978139983025,
+    "mean_precisions": 0.9996430000000001,
+    "std_time": 0.003627115493668448,
+    "min_time": 0.004833600003621541,
+    "max_time": 0.0674423000018578,
+    "rps": 689.3428050416155,
+    "p95_time": 0.015655559999504475,
+    "p99_time": 0.02198854799695255
+  }
+}

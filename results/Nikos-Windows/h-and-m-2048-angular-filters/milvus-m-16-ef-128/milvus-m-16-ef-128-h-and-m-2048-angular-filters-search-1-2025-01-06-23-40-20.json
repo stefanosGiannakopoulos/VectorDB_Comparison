@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "h-and-m-2048-angular-filters",
+    "experiment": "milvus-m-16-ef-128",
+    "engine": "milvus",
+    "parallel": 1,
+    "config": {
+      "ef": 256
+    }
+  },
+  "results": {
+    "total_time": 52.76067380000313,
+    "mean_time": 0.004367749500036734,
+    "mean_precisions": 0.997552,
+    "std_time": 0.0026058087077752002,
+    "min_time": 0.001924299998790957,
+    "max_time": 0.05522059999930207,
+    "rps": 189.53510787042688,
+    "p95_time": 0.007624560001568169,
+    "p99_time": 0.013541677003013388
+  }
+}

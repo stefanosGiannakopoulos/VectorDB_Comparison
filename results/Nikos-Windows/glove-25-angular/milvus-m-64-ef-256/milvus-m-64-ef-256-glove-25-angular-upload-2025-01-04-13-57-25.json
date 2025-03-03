@@ -1,0 +1,17 @@
+{
+  "params": {
+    "experiment": "milvus-m-64-ef-256",
+    "engine": "milvus",
+    "dataset": "glove-25-angular",
+    "parallel": 16,
+    "index_params": {
+      "efConstruction": 256,
+      "M": 64
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 84.8048914999963,
+    "total_time": 276.1641163000022
+  }
+}

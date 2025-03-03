@@ -1,0 +1,20 @@
+{
+  "params": {
+    "experiment": "qdrant-m-64-ef-256",
+    "engine": "qdrant",
+    "dataset": "glove-100-angular",
+    "parallel": 16,
+    "optimizers_config": {
+      "memmap_threshold": 10000000
+    },
+    "hnsw_config": {
+      "m": 64,
+      "ef_construct": 256
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 129.2799318999987,
+    "total_time": 530.0756259999998
+  }
+}

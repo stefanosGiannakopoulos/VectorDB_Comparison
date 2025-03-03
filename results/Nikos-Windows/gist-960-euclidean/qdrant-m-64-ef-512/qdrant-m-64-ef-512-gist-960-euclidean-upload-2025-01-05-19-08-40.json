@@ -1,0 +1,20 @@
+{
+  "params": {
+    "experiment": "qdrant-m-64-ef-512",
+    "engine": "qdrant",
+    "dataset": "gist-960-euclidean",
+    "parallel": 16,
+    "optimizers_config": {
+      "memmap_threshold": 10000000
+    },
+    "hnsw_config": {
+      "m": 64,
+      "ef_construct": 512
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 191.57157260000076,
+    "total_time": 1690.2526031000007
+  }
+}
