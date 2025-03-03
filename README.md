@@ -7,7 +7,7 @@ This repository uses [vector-db-benchmark](https://github.com/qdrant/vector-db-b
 - Other directories inside `results/` containing the `json` files with results of each experiment (dataset - engine configuration - upload) or (dataset - engine configuration - search config)
 - `csv` files inside `results/` - each line indicates a different experiment and contains metrics for Qdrant and Milvus (to compare engines with the same configuration)
 - `summary.py`: a command line interface used to show the results for specific/all engine configurations and datasets
-
+- `report.pdf`: a report where we make a comparison in great detail
 For explanation about engine and search configurations used for the benchmarking you can see `results/README.md`.
 
 Installation and Run instructions are kept as the base repository below.
